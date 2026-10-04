@@ -4,7 +4,7 @@ import { FcGoogle } from "react-icons/fc";
 import useAuth from "../../hooks/useAuth";
 import { toast } from "react-hot-toast";
 import { TbFidgetSpinner } from "react-icons/tb";
-import { imageUpload } from "../../../../../Conceptual Section -1/b12-m11-session-starter/frontend/src/utils";
+import { imageUpload } from "../../utils";
 import { saveOrUpdateUser } from "../../utils";
 
 const SignUp = () => {
